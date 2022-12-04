@@ -21,3 +21,13 @@
  - We considered network models with 2 or 3 layers, with 30 to 80 neurons per layer, using ReLU and tanh activations for the hidden layers and sigmoid activation for the output layer.
  - Varying the number of layers and the activation functions did not have much effect on model performance. Continued training also had very little impact on model performance. After 20-40 epochs, performance indicators bounced up and down instead of improving steadily. Even after the first two or three steps, the gains were marginal, e.g. improving from 72% to 74% accuracy (on training data).
 
+#### Summary
+
+ Our best model, the first one, has 72.5% accuracy, substantially above random. At least, it could be used in conjunction with existing grant application evaluation methods.
+
+ Identifying and discarding noisy variables, an approach we did not take, could result in a better model.
+
+ A more brute-force approach could also improve perfomance. We could train dozens (or even hundreds) of models with slight variations in hyper-parameters and/or random starting states, and then select the best one of those.
+
+
+
